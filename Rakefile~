@@ -4,6 +4,4 @@ include Rake::DSL
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Rake.application.options.ignore_deprecate = true
-
 SampleApp::Application.load_tasks
